@@ -28,7 +28,7 @@ namespace ProjetoTcc
             {
                 VisitLink();//chama a url do VisitLink
             }
-            catch (Exception ex)//Se não encontrar exibe msg de erro
+            catch (Exception)//Se não encontrar exibe msg de erro
             {
                 MessageBox.Show("Unable to open link that was clicked.");
             }
@@ -39,6 +39,11 @@ namespace ProjetoTcc
         {
            
             System.Diagnostics.Process.Start("http://www.google.com");
+        }
+
+        private void BtnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
