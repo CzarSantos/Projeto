@@ -16,8 +16,8 @@ namespace ProjetoTcc.Modelo
         {
             LoginDaoComandos loginDao = new LoginDaoComandos();//instancia da classe login
             tem = loginDao.verificarLogin(login, senha);//metodo para verificar se foi encontrado
-            if(!loginDao.mensagem.Equals(" "))
-                {
+            if(!string.IsNullOrEmpty(loginDao.mensagem))
+            {
                 this.mensagem = loginDao.mensagem;
             }
             return tem;

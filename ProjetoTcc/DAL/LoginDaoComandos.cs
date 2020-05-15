@@ -40,7 +40,7 @@ namespace ProjetoTcc.DAL
             return tem;
 
         }
-        public String cadastrar(String email, String senha, String)
+        public String cadastrar(String email, String senha)
         {
             //comandos para inserir
             return mensagem;
