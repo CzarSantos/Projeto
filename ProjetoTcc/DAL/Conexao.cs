@@ -12,7 +12,7 @@ namespace ProjetoTcc.DAL
         SqlConnection con = new SqlConnection(); 
         public Conexao()//Metodo construtor
         {
-            con.ConnectionString = @"";//recebe o endereço do banco
+            con.ConnectionString = @"Data Source=LAPTOP-2D7C9J3S;Initial Catalog=ProjetoLogin;Integrated Security=True";//recebe o endereço do banco
 
         }
         public SqlConnection conectar()
