@@ -22,7 +22,7 @@ namespace ProjetoTcc.Modelo
             }
             return tem;
         }
-        
+        //jjhjhjj
         public String cadastrar(String email, String senha, String confSenha)
         {
             return mensagem;
